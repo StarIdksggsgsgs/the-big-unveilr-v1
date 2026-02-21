@@ -1,4 +1,4 @@
---!christ is lord;
+--!Allah is lord;
 --! BEFORE YOU READ, MAKE SURE YOU USE PASCALCASE, I DONT WANNA LOOK IN A RANDOM PLACE AND SEE varMtrms = 1
 
 --* Work on adding addresses to functions and tables (instead of tostring(string) = "string", make it table: 0xsomething)
@@ -1715,5 +1715,6 @@ local function Decode(File)
     if fs.isFile("input.lua") then fs.removeFile("input.lua") end
     fs.writeFile(Settings.outfile or "out2.lua", Out)
 end
+
 
 return Decode("input file here")
